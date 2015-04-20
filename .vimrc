@@ -6,7 +6,8 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'jamessan/vim-gnupg'
-Plugin 'tpope/vim-pathogen'
+" Plugin 'tpope/vim-pathogen' " It get a lot of warning when I try to open -
+" gpg file and I don't want decrypt them
 Plugin 'scrooloose/nerdtree'
 Plugin 'kien/ctrlp.vim'
 
@@ -38,6 +39,6 @@ nmap <C-q> :q<CR>  " it doesn't work and I don't know the reason =/
 nmap <C-s> :w<CR>
 
 :set cpoptions+=n
-:set relativenumber
+:set number
 :set cpoptions+=n
-:highlight LineNr term=bold cterm=NONE ctermfg=White ctermbg=DarkYellow gui=NONE guifg=NONE guibg=NONE
+:highlight LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=235 gui=NONE guifg=NONE guibg=NONE

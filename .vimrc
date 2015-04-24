@@ -48,6 +48,7 @@ let NERDTreeShowHidden=1
 " Short cuts:
 let mapleader=","
 map <F2> :NERDTreeToggle<CR>
+map <F3> :Ack 
 map <leader>t :CtrlP<CR>
 nmap <leader>w :wincmd k<CR>       " go window up
 nmap <leader>s :wincmd j<CR>       " go window down

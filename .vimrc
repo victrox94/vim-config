@@ -10,6 +10,7 @@ call vundle#begin()
 Plugin 'tpope/vim-pathogen'
 Plugin 'scrooloose/nerdtree'
 Plugin 'kien/ctrlp.vim'
+Plugin 'mileszs/ack.vim'
 
 " Status bar plugin
 Plugin 'bling/vim-airline'
@@ -27,6 +28,7 @@ set encoding=utf8
 set background=dark
 set ffs=unix,dos,mac
 set modeline
+set autoindent
 set tabstop=4
 set shiftwidth=4
 set expandtab
@@ -35,8 +37,6 @@ set backspace=indent,eol,start
 set laststatus=2
 set cpoptions+=n
 set number
-set autoindent
-set cpoptions+=n
 highlight LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=235 gui=NONE guifg=NONE guibg=NONE
 
 " CtrlP to ignore
@@ -56,7 +56,7 @@ nmap <leader>x :wincmd l<CR>       " go window right
 nmap <leader>v :vertical :new<CR>  " open new vertical window
 nmap <leader>h :new<CR>            " open a new horizontal window
 nmap <leader>a :qa<CR>             " it quit all vim buffers
-nmap <leader>A :qa!<CR>             " it force quit all vim buffers
+nmap <leader>A :qa!<CR>            " it force quit all vim buffers
 nmap <leader>n :tabnew<CR>         " create a new tab
 nmap <leader><tab> :tabnext<CR>    " move to next tab
 nmap <C-q> :q<CR>                  " close the current window

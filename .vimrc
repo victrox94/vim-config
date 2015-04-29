@@ -40,10 +40,11 @@ set number
 highlight LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=235 gui=NONE guifg=NONE guibg=NONE
 
 " CtrlP to ignore
-set wildignore+=*.swp,*pyc
+set wildignore+=*.swp,*.pyc
 
 " NerdTree show hidden files
 let NERDTreeShowHidden=1
+let NERDTreeIgnore=['\.swp$', '\.pyc$']
 
 " Short cuts:
 let mapleader=","

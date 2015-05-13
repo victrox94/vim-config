@@ -51,6 +51,7 @@ let NERDTreeIgnore=['\.swp$', '\.pyc$']
 let mapleader=","
 map <F2> :NERDTreeToggle<CR>
 map <F3> :Ack 
+map <F4> :CtrlPClearAllCaches       " clear all CtrlP cache
 map <F5> :e!<CR>                    " force reload current file
 map <F6> <C-w><                     " decrease width
 map <F7> <C-w>>                     " increase width

@@ -43,6 +43,7 @@ highlight LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=235 gui=NONE guif
 
 " CtrlP to ignore
 set wildignore+=*.swp,*.pyc
+let g:ctrlp_show_hidden = 1
 
 " NerdTree show hidden files
 let NERDTreeShowHidden=1
@@ -58,6 +59,7 @@ map <F6> <C-w><                     " decrease width
 map <F7> <C-w>>                     " increase width
 map <F8> <C-w>+                     " decrease height
 map <F9> <C-w>-                     " increase height
+map <F10> :NERDTreeFind<CR>         " Open NERDTree and focus on current file
 map <leader>t :CtrlP<CR>
 nmap <leader>w :wincmd k<CR>        " go window up
 nmap <leader>s :wincmd j<CR>        " go window down

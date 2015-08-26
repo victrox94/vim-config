@@ -2,7 +2,7 @@ set nocompatible
 syntax on
 filetype off
 
-set directory=~/my-tmp/vim-swap
+set directory=~/tmp/vim-swap
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 

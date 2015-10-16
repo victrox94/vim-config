@@ -12,6 +12,8 @@ Plugin 'tpope/vim-pathogen'
 Plugin 'scrooloose/nerdtree'
 Plugin 'kien/ctrlp.vim'
 Plugin 'mileszs/ack.vim'
+Plugin 'tmux-plugins/vim-tmux'
+Plugin 'erickzanardo/vim-xclip'
 
 " Status bar plugin
 Plugin 'bling/vim-airline'
